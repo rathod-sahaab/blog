@@ -1,50 +1,51 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://rathod-sahaab.github.io/blog',
+  pathPrefix: '/blog',
+  title: "@rathod-sahaab's blog",
+  subtitle: 'Sharing what I learn to help others and future me :)',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 3,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
     {
       label: 'Articles',
-      path: '/'
+      path: '/',
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/pages/about',
     },
     {
       label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      path: '/pages/contacts',
+    },
   ],
   author: {
-    name: 'John Doe',
+    name: 'Abhay Raj Singh',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio:
+      'Fullstack and Systems developer, with a love for technologies and projects.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'abhayofficialone@gmail.com',
+      facebook: '',
+      telegram: '',
+      twitter: 'swayambhu_dev',
+      github: 'rathod-sahaab',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'rathod-sahaab',
+      instagram: '',
       line: '',
-      gitlab: '',
+      gitlab: 'rathod-sahaab',
       weibo: '',
       codepen: '',
       youtube: '',
       soundcloud: '',
       medium: '',
-    }
-  }
+    },
+  },
 };
