@@ -15,23 +15,23 @@ socialImage: '/media/io_uring-sq-cq.png'
 
 ## What is io_uring?
 
-Though there are already many ways to do async I/O on linux but io_uring is way faster than them because of following reasons:
+Though there are already many ways to do async I/O on linux but io\_uring the new feauture is way faster than other because of following reasons:
 
 - Shared data between kernel and process avoiding copying large amount of data on every syscall.
-- No locks on the shared data between kernel and process hence faster.
+- Lock free shared data between kernel and process hence faster.
 - Ability to batch up multiple I/O requests (for different files) in one _syscall_ decreasing total number of syscalls required.
 
 [Official Paper on io_uring](https://kernel.dk/io_uring.pdf) by the author of io_uring Jens Axboe goes in much more details of how and why, so make sure to give this masterpiece a read. The best practice it to **NOT** use io_uring but [liburing](https://github.com/axboe/liburing) a library made to simplify using io_uring.
 
 ## Motivation
 
-`nbdcopy` one of the most prominent users of libnbd is used by many applications like `virt-v2v`, `oVirt`, `KubeVirt`, etc.
+`nbdcopy` one of the most prominent users of libnbd can be and is used by many applications like `virt-v2v`, `oVirt`, `KubeVirt`, etc.
 
 `virt-v2v` tool converts virtual machines (VMs) from foreign hypervisors, including their disk images and metadata, for use with with KVM managed by libvirt.
 
-Using io_uring would improve efficiency and thoroughput hence better performance for programs that use `libnbd` and `nbdcopy`.
+Using io\_uring would improve efficiency and speed hence better performance for programs that use `libnbd` and `nbdcopy`.
 
-Generally, **VM ware** images are converted to **KVM** images, the faster we do it the faster we get more opensource :) while copying there images are not operational i.e. downtime and we all know how bad it is the faster we get out the better it is.
+Generally, **VMware ESXi** images are converted to **KVM** images, hence, the faster we do it the faster we get more opensource :) While copying the images, VMs cannot be operational i.e. downtime until copy is complete and we all know how bad it is... the faster we get out the better it is.
 
 ## libnbd
 
