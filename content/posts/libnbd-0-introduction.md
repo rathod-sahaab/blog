@@ -31,12 +31,12 @@ Though there are already many ways to do async I/O on linux but io\_uring the ne
 
 Using io\_uring would improve efficiency and speed hence better performance for programs that use `libnbd` and `nbdcopy`.
 
-Generally, **VMware ESXi** images are converted to **KVM** images, hence, the faster we do it the faster we get more opensource :) While copying the images, VMs cannot be operational i.e. downtime until copy is complete and we all know how bad it is... the faster we get out the better it is.
+Generally, **VMware ESXi** VM images are converted to **KVM** images, hence, the faster we do it the faster we get more opensource :) While copying the images, VMs cannot be operational i.e. downtime until copy is complete and we all know how bad it is... the faster we get out the better it is.
 
 ## libnbd
 
 NBD — Network Block Device — is a protocol for accessing Block Devices
-(hard disks and disk-like things) over a Network. `liburing` is a NBD client library in userspace. The library is hosted at [libguestfs/libnbd](https://gitlab.com/libguestfs/libnbd).
+(hard disks and disk-like things) over a Network. `liburing` is a NBD client library in userspace. The library is hosted at [libguestfs/libnbd](https://github.com/libguestfs/libnbd).
 
 ## Future posts
 
