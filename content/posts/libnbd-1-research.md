@@ -9,7 +9,7 @@ tags:
   - 'libnbd'
   - 'iouring'
   - 'systems-programming'
-description: 'io_uring is the new and better way to do asynchronus I/O on linux, tag along with me on a journey to learning of doing on a real life project libnbd!'
+description: 'io_uring is the new and better way to do asynchronus I/O on linux, tag along with me on a journey to learn it by doing, on a real life project libnbd!'
 socialImage: '/media/io_uring-sq-cq.png'
 ---
 
@@ -107,9 +107,9 @@ int main() {
   struct io_uring_sqe *sqe;
   sqe = io_uring_get_sqe(&ring);
 
-  char buff[3][512] = {"Hello ", "again ", "world!\n"};
+  char buff[3][16] = {"Hello ", "again ", "world!\n"};
 
-  int fd = creat("myfile.txt", O_TRUNC);
+  int fd = creat("myfile.txt", S_IRUSR | S_IWUSR);
   struct iovec iov[3];
   for (int i = 0; i < 3; ++i) {
     iov[i].iov_base = buff[i];
