@@ -10,8 +10,9 @@ tags:
   - 'nodejs'
   - 'http'
   - 'cookies'
+  - 'svg'
 description: 'You might have seen counter on GitHub profiles displaying how many visits a profile has, but do you know how they work, join me as I explore several ways to do just that.'
-socialImage: '/media/rs-gh-profile.png'
+socialImage: '/media/counter-image.png'
 ---
 
 ## Why are we here?
@@ -240,7 +241,7 @@ We load our image at startup from a file and store it in a string, that's why we
 
 What my svg template looks like, which I made using Inkscape.
 
-![My counter image template](/media/visits-counter-counter-optim.svg)
+![My counter image design](/media/counter-image.png)
 
 ### Finally, making the server
 
@@ -431,4 +432,11 @@ Example: when you request `example.com/svg/1` counter 1 is returned and `example
 
 I am not going to detail you how to do that, learn yourself.
 
-You can find the source code on the github repo `backend-basics/visits-counter`.
+## Conclusion
+It was fun learning and applying while making this project, but the question is can we use this for real. The answer is... it depends. If you want just one counter it's good to go, if you want multiple counters you will have to tinker with the code a bit to make it work.
+
+Why do you want to host it? Well if you want an image with distinct design, go ahead.
+
+Maybe, I will post the updates with database integration for multiple images, and possibly an option to upload your own designs.
+
+You can find the source code on the github repo [backend-basics](https://github.com/rathod-sahaab/backend-basics/tree/dev/cookies/visits-counter).
