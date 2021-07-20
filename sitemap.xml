@@ -4,12 +4,20 @@
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rathod-sahaab.github.io/blog/blog/posts/visits-counter</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/posts/libnbd-io_uring-0</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/posts/libnbd-io_uring-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/posts/libnbd-io_uring-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rathod-sahaab.github.io/blog/blog/tag/backend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rathod-sahaab.github.io/blog/blog/tag/cookies</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rathod-sahaab.github.io/blog/blog/tag/http</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/tag/iouring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/tag/libnbd</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rathod-sahaab.github.io/blog/blog/tag/nodejs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rathod-sahaab.github.io/blog/blog/tag/svg</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/tag/systems-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rathod-sahaab.github.io/blog/blog/category/backend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/category/systems-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rathod-sahaab.github.io/blog/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rathod-sahaab.github.io/blog/blog/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
