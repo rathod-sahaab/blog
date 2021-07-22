@@ -19,6 +19,8 @@ const PostTemplate = ({ data }: Props) => {
   const metaDescription = postDescription || siteSubtitle;
   const socialImageUrl = socialImage?.publicURL;
 
+  console.log("PostTemplate socialImage:" + socialImage)
+
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
       <Post post={data.markdownRemark} />
