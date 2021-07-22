@@ -11,7 +11,7 @@ tags:
   - 'http'
   - 'cookies'
   - 'svg'
-description: 'You might have seen counter on GitHub profiles displaying how many visits a profile has, but do you know how they work, join me as I explore several ways to do just that.'
+description: 'You might have seen visits counters on some GitHub profiles displaying how many visits a profile has, but do you know how they work, join me as I go in excruciating details on how to make something like that.'
 socialImage: '/media/counter-image.png'
 ---
 
@@ -31,11 +31,11 @@ Number of visits to this blog page.
   <img src="https://profile-counter.glitch.me/rathod-sahaab-blog-visiter-counter/count.svg" alt="Visitors count for this blog post" title="Visitors count for this blog post"/>
 </p>
 
-We will learn how can we make our own and some hacks to increase the counter.
+We will learn how can we make our own and some hacks to increase the counter. You can find the source code on the github repo [backend-basics](https://github.com/rathod-sahaab/backend-basics/tree/dev/visits-counter).
 
 ### How does it work?
 
-Simple, we use the the good old <del>AJAX/fetch request</del>. Yeah, about that, see we can't have JavaScript on GitHub or any sane site where user can make posts because of a bad thing called XSS or cross site scripting. If someone is able to run JavaScript by posting they get almost full control over users browser. At best you get some good kid making auto starring repositories or auto tweeting tweets, at worst, any thing is possible.
+Simple, we use the the good old <del>AJAX/fetch request</del>. Yeah, about that, see we can't have JavaScript on GitHub or any sane site where users can post things that will be shown to other users (usernames, blogs, etc.). Because of bad things called XSS or cross site scripting. If someone is able to run JavaScript by posting they get almost full control over user's browser. At best you get some good kid making auto starring repositories or auto tweeting tweets, at worst, anything is possible.
 
 That is the reason we can't have the good old <del>AJAX/fetch request</del>, dang it! can't even say <del>AJAX/fetch</del>. Jokes aside, we had to find a way around this to display dynamic content, and someone did.
 
@@ -95,19 +95,19 @@ It's not required to import image from the same domain you can also do given tha
 </html>
 ```
 
-This doesn't have to be a static image at all, you can paint every pixel of a 4K image and send it when you like! But do it before request is declared [TIMED OUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408) by the browser so not THAT lazily too.
+This doesn't have to be a static image at all, you can paint every pixel of a 4K image and send it when you like! But do it before request is declared [TIMEDOUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408) by the browser, so yeah not THAT lazily.
 
-Hence, we can generate image on our server and send it when requested, it may take some time to load but hey atleast we got it dynamic. What should we generate? let me think... Idea! a visits counter :D, wait -\_-.
+Hence, we can generate image on our server and send it when requested, it may take some time to load, but hey! atleast we got it dynamic. What should we generate? let me think... Idea! a visits counter :D, wait -\_-.
 
-The idea is not very new and is not a result of GitHub profile thingy. Remember those build passing badges they use the same principle.
+The idea is not very new and is surely not a result of GitHub profile thingy. Remember those build passing badges they use the same principle.
 
 <p align="center">
-  <a href="https://travis-ci.org/BoostIO/Boostnote">
-    <img src="https://travis-ci.org/BoostIO/Boostnote.svg?branch=master" alt="Build Status" />
+  <a href="https://circleci.com/gh/gatsbyjs/gatsby">
+    <img src="https://circleci.com/gh/gatsbyjs/gatsby.svg?style=shield" alt="Current CircleCI build status." />
   </a>
 </p>
 
-Full disclosure that badge is stolen from [BoostNote](https://github.com/BoostIO/Boostnote).
+Full disclosure that badge is stolen from [GatsbyJS](https://github.com/gatsbyjs), the tool I used to make my [personal website](https://rathod-sahaab.github.io), most of my webapps and this blog too! checkout [this blog's theme](https://www.gatsbyjs.com/starters/alxshelepenok/gatsby-starter-lumen).
 
 #### SVG: Scalable Vector Graphics
 
@@ -433,10 +433,11 @@ Example: when you request `example.com/svg/1` counter 1 is returned and `example
 I am not going to detail you how to do that, learn yourself.
 
 ## Conclusion
+
 It was fun learning and applying while making this project, but the question is can we use this for real. The answer is... it depends. If you want just one counter it's good to go, if you want multiple counters you will have to tinker with the code a bit to make it work.
 
 Why do you want to host it? Well if you want an image with distinct design, go ahead.
 
 Maybe, I will post the updates with database integration for multiple images, and possibly an option to upload your own designs.
 
-You can find the source code on the github repo [backend-basics](https://github.com/rathod-sahaab/backend-basics/tree/dev/cookies/visits-counter).
+You can find the source code on the github repo [backend-basics](https://github.com/rathod-sahaab/backend-basics/tree/dev/visits-counter).
