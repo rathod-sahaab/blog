@@ -19,12 +19,13 @@ const Layout = ({
   socialImage = ''
 }: Props) => {
   const { author, url } = useSiteMetadata();
-  console.log("Layout.js socialImage:" + socialImage);
-  console.log("Layout.js socialImage:" + author.photo);
+  if (socialImage.startsWith("/blog")) {
+    socialImage = socialImage.substr("/blog".length)		
+  }
   const metaImage = socialImage || author.photo;
-  console.log("Layout.js socialImage:" + metaImage);
+  console.log("Layout.js metaImage:" + metaImage);
   const metaImageUrl = url + metaImage;
-  console.log("Layout.js socialImage:" + metaImageUrl);
+  console.log("Layout.js metaImageUrl:" + metaImageUrl);
 
   return (
     <div className={styles.layout}>
