@@ -12,7 +12,7 @@ taxonomies:
   series: series
   tag: tags
 
-googleAnalytics: UA-123-45
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -20,12 +20,12 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: 'Everything Engineering'
+  description: "We don't care if it's irrelevant, we care if it's engineering."
+  keywords: [Blog, Engineering]
   author: Abhay
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  images: ["https://blog.abhay.rs/favicon.svg"]
+  DateFormat: "2006, January 2"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
 
@@ -45,33 +45,24 @@ params:
   showtoc: true
   tocopen: true
 
-  # assets:
-  #   # disableHLJS: true # to disable highlight.js
-  #   # disableFingerprinting: true
-  #   favicon: "/elide.svg"
-  #   favicon16x16:  "/elide.svg"
-  #   favicon32x32:  "/elide.svg"
-  #   apple_touch_icon:  "/elide.svg"
-  #   safari_pinned_tab:  "/elide.svg"
-
   label:
     text: "Everything Engineering"
-    iconHeight: 35
+    iconHeight: 36
 
   # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+  # profileMode:
+  #   enabled: false # needs to be explicitly set
+  #   title: ExampleSite
+  #   subtitle: "This is subtitle"
+  #   imageUrl: "<img location>"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   imageTitle: my image
+  #   buttons:
+  #     - name: Posts
+  #       url: posts
+  #     - name: Tags
+  #       url: tags
 
   # home-info mode
   homeInfoParams:
@@ -80,19 +71,17 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/swaymbhu_dev"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/swayambhu_dev"
     - name: github
       url: "https://github.com/rathod-sahaab"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
