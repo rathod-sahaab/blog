@@ -1,4 +1,4 @@
-baseURL: "https://blog.abhay.rs/"
+baseURL: "https://abhay.rs/blog/"
 title: 'Everything Engineering'
 paginate: 5
 theme: PaperMod
