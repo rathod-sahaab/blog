@@ -24,7 +24,7 @@ params:
   description: "We don't care if it's irrelevant, we care if it's engineering."
   keywords: [Blog, Engineering]
   author: Abhay
-  images: ["https://blog.abhay.rs/favicon.svg"]
+  images: ["https://abhay.rs/blog/favicon.svg"]
   DateFormat: "2006, January 2"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
