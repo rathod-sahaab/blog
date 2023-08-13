@@ -60,7 +60,7 @@ In my life
 
 It's like lifting weights seemingly specific but the skills you acquire turnout to be pretty functional. Brain is like body if not trained atrophies into Minimum Viable Product which should be the starting point not the end goal.
 
-# P: The Problem
+## P: The Problem
 A bead of mass $ m $ is resting on uniform string of length $ l $ anchored on 2 points distance $ d $ apart leveled horizontally such that  $ d \lt l $, the coefficient of friction(static and kinetic) between string and bead is $ \mu $.
 
 1. Resting position of bead, if the bead is release from the position just beneath the anchor when string is taught when.
@@ -72,7 +72,7 @@ A bead of mass $ m $ is resting on uniform string of length $ l $ anchored on 2 
 
 Solutions, might have symmetry so answers with respect to any of the anchors is
 
-## V: Variations
+### V: Variations
 1. Bead
     1. point sized bead
     2. Spherical bead sized comparable to $ d $ and $ l $.
@@ -81,7 +81,7 @@ Solutions, might have symmetry so answers with respect to any of the anchors is
     1. Non-stiff string
     2. Stiff string
 
-# Solutions
+### Solutions
 - P 1.1 V { 11.21, 12.21, 11.22, 12.22} (coming soon)
 - P 1.2 V { 11.21, 12.21, 11.22, 12.22} (coming soon)
 - P 2   V { 11.21, 12.21, 11.22, 12.22} (coming soon)
