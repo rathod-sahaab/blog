@@ -63,6 +63,8 @@ It's like lifting weights seemingly specific but the skills you acquire turnout 
 ## P: The Problem
 A bead of mass $ m $ is resting on uniform string of length $ l $ anchored on 2 points distance $ d $ apart leveled horizontally such that  $ d \lt l $, the coefficient of friction(static and kinetic) between string and bead is $ \mu $.
 
+{{<img "images/general-problem.png" "Problem Illustration, Fig. 1" >}}
+
 1. Resting position of bead, if the bead is release from the position just beneath the anchor when string is taught when.
     1. Bead is released pseudo-statically.
     2. Bead is released freely.
