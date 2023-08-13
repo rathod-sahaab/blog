@@ -2,12 +2,12 @@
 author: "Abhay"
 title: Recipie for Node.js - Node.js Deep Dive [0]
 description: ""
-date: "2021-02-19T00:00:00+00:00"
+date: "2023-02-11T00:00:00+00:00"
 template: "post"
-draft: false
+draft: true
 slug: "node-js-deep-dive-0"
 series:
-  - node-js-deep-dive
+  - "nodejs-deep-dive"
 tags:
   - "backend"
   - "nodejs"
@@ -38,3 +38,20 @@ editPost:
 ---
 
 # Recipie for Node.js
+According to [nodejs.org](https://nodejs.org/en/)
+> Node.js® is an open-source, cross-platform, asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.
+
+But, what if every node repository that exists is deleted. How would we get there again?
+First of all, no! because [deno](https://deno.land/).
+However, lets prepare for another world ending scenario which is definitely never going to happen
+and I heroically save the day by writing *node* from scratch.
+
+## Ingredients
+### V8: The Brains
+V8 refers to a class of internal combustion engines with 8 cylinders known for their power and reliability,
+whose name was conviniently stolen by Google for their
+"open source high-performance JavaScript and WebAssembly engine, written in C++".
+
+Jokes aside, [V8](https://v8.dev) is the engine/processor/runner that runs JavaScript for node. But, the thing is V8 was made for the web browsers so it was not paired with utilities that can modify you.
+
+
