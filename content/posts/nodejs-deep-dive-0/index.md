@@ -37,7 +37,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-# Recipie for Node.js
+# Recipe for Node.js
 According to [nodejs.org](https://nodejs.org/en/)
 > Node.js® is an open-source, cross-platform, asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.
 
