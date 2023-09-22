@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Everything Engineering</title>
+    <link>https://abhay.rs/blog/posts/</link>
+    <description>Recent content in Posts on Everything Engineering</description>
+    <image>
+      <title>Everything Engineering</title>
+      <url>https://abhay.rs/blog/favicon.svg</url>
+      <link>https://abhay.rs/blog/favicon.svg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://abhay.rs/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Modular and Extensible Payments Service [0]</title>
+      <link>https://abhay.rs/blog/posts/payments-service-0/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/posts/payments-service-0/</guid>
+      <description>Learn how to structure your payments service with modularity in mind, allowing for easy integration and scalability as your application grows. Learn the art of building an extensible foundation that can adapt to changing business needs, ensuring robustness and agility, to, at the end of the day, maximize profit.</description>
+    </item>
+    
+    <item>
+      <title>Bouncing Bead - Maths from chaos [0]</title>
+      <link>https://abhay.rs/blog/posts/maths-from-chaos-0/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/posts/maths-from-chaos-0/</guid>
+      <description>Why Mathematics is truly fascinating, seemingly chaotic behavior once broken down to bits, bytes and variables starts making sense not only helps us to not only predict the future behavior and utilize those predictions to our applications; but the journey of solving a problem provides us with tools for solving the next problem blocking our way.
+To put it poetically, the real maths is the tools we made along the way.</description>
+    </item>
+    
+    <item>
+      <title>GitHub profile visit counter - Backend Basics [0]</title>
+      <link>https://abhay.rs/blog/posts/visits-counter/</link>
+      <pubDate>Mon, 19 Jul 2021 14:23:34 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/posts/visits-counter/</guid>
+      <description>You might have seen visits counters on some GitHub profiles displaying how many visits a profile has, but do you know how they work, join me as I go in excruciating details on how to make something like that.</description>
+    </item>
+    
+  </channel>
+</rss>

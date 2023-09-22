@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>backend-basics on Everything Engineering</title>
+    <link>https://abhay.rs/blog/series/backend-basics/</link>
+    <description>Recent content in backend-basics on Everything Engineering</description>
+    <image>
+      <title>Everything Engineering</title>
+      <url>https://abhay.rs/blog/favicon.svg</url>
+      <link>https://abhay.rs/blog/favicon.svg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Jul 2021 14:23:34 +0000</lastBuildDate><atom:link href="https://abhay.rs/blog/series/backend-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub profile visit counter - Backend Basics [0]</title>
+      <link>https://abhay.rs/blog/posts/visits-counter/</link>
+      <pubDate>Mon, 19 Jul 2021 14:23:34 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/posts/visits-counter/</guid>
+      <description>You might have seen visits counters on some GitHub profiles displaying how many visits a profile has, but do you know how they work, join me as I go in excruciating details on how to make something like that.</description>
+    </item>
+    
+  </channel>
+</rss>

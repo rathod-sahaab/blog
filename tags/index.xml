@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Everything Engineering</title>
+    <link>https://abhay.rs/blog/tags/</link>
+    <description>Recent content in Tags on Everything Engineering</description>
+    <image>
+      <title>Everything Engineering</title>
+      <url>https://abhay.rs/blog/favicon.svg</url>
+      <link>https://abhay.rs/blog/favicon.svg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://abhay.rs/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>backend</title>
+      <link>https://abhay.rs/blog/tags/backend/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>low-level-design</title>
+      <link>https://abhay.rs/blog/tags/low-level-design/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/low-level-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodejs</title>
+      <link>https://abhay.rs/blog/tags/nodejs/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systems-design</title>
+      <link>https://abhay.rs/blog/tags/systems-design/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/systems-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typescript</title>
+      <link>https://abhay.rs/blog/tags/typescript/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mathematics</title>
+      <link>https://abhay.rs/blog/tags/mathematics/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physics</title>
+      <link>https://abhay.rs/blog/tags/physics/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>problem</title>
+      <link>https://abhay.rs/blog/tags/problem/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/problem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cookies</title>
+      <link>https://abhay.rs/blog/tags/cookies/</link>
+      <pubDate>Mon, 19 Jul 2021 14:23:34 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/cookies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>http</title>
+      <link>https://abhay.rs/blog/tags/http/</link>
+      <pubDate>Mon, 19 Jul 2021 14:23:34 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>svg</title>
+      <link>https://abhay.rs/blog/tags/svg/</link>
+      <pubDate>Mon, 19 Jul 2021 14:23:34 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/tags/svg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series on Everything Engineering</title>
+    <link>https://abhay.rs/blog/series/</link>
+    <description>Recent content in Series on Everything Engineering</description>
+    <image>
+      <title>Everything Engineering</title>
+      <url>https://abhay.rs/blog/favicon.svg</url>
+      <link>https://abhay.rs/blog/favicon.svg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://abhay.rs/blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>payments-service</title>
+      <link>https://abhay.rs/blog/series/payments-service/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/series/payments-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maths-from-chaos</title>
+      <link>https://abhay.rs/blog/series/maths-from-chaos/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/series/maths-from-chaos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backend-basics</title>
+      <link>https://abhay.rs/blog/series/backend-basics/</link>
+      <pubDate>Mon, 19 Jul 2021 14:23:34 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/series/backend-basics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
