@@ -24,8 +24,10 @@ params:
   description: "We don't care if it's irrelevant, we care if it's engineering."
   keywords: [Blog, Engineering]
   author: Abhay
+  assets:
+    favicon: "https://abhay.rs/blog/favicon.svg"
   images: ["https://abhay.rs/blog/favicon.svg"]
-  DateFormat: "2006, January 2"
+  DateFormat: "2023, January 2"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
 
@@ -47,22 +49,7 @@ params:
 
   label:
     text: "Everything Engineering"
-    iconHeight: 36
-
-  # profile-mode
-  # profileMode:
-  #   enabled: false # needs to be explicitly set
-  #   title: ExampleSite
-  #   subtitle: "This is subtitle"
-  #   imageUrl: "<img location>"
-  #   imageWidth: 120
-  #   imageHeight: 120
-  #   imageTitle: my image
-  #   buttons:
-  #     - name: Posts
-  #       url: posts
-  #     - name: Tags
-  #       url: tags
+    iconSVG: '<svg style="margin-bottom: -0.3em;border-radius: 0;" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="30" height="30"><svg width="30" height="30" viewBox="0 0 99.682 99.682" xmlns="http://www.w3.org/2000/svg"><path d="M0 10.807v78.19h46.972V73.438H15.657V57.731h23.486v-15.61H15.657V26.416h31.315v-15.61zM99.682 10.807v78.19H52.71V73.438h31.315V57.731H60.539v-15.61h23.486V26.416H52.71v-15.61z" fill="currentColor"></path></svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } } </style></svg>'
 
   # home-info mode
   homeInfoParams:
