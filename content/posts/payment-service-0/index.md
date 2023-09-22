@@ -27,21 +27,17 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "images/tumbnail.webp" # image path/url
+    image: "posts/payments-service-0/thumbnail.webp" # image path/url
     alt: "Thumbnail: Server with various payment gateways" # alt text
-    caption: "Server with various payment gateways" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/rathod-sahaab/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    caption: "A Server with various payment gateways" # display caption under cover
+    relative: true # when using page bundles set this to true
+    hidden: false # only hide on current single page
 ---
 
 ## Foreword
 [Skip to requirements](#what-do-we-want)
 
-This is a story of technical debt and its inevitable payoff. It's not a cautionary tale and let's not take away that technical debt is bad, technical debt is much like financial debt and most of our modern economy is built on debt. Debt is not bad as long as you can pay it off, tell that to the governments around the world.
+This is a story of technical debt and its inevitable payoff. It's not a cautionary tale and let's not take away that technical debt is bad, technical debt is much like financial debt. In fact, our modern economy relies heavily on various forms of debt. The key is managing and repaying debt effectively, tell that to the governments around the world :P
 
 ## Let's start from the middle
 In my day job at [Tealfeed](https://tealfeed.com), we added a revenue-generating feature, with **stripe** as the payment gateway. Everything worked well, and we lived happily ever after. Right? Wrong! First, we added a few more features and then a few more payment gateways all in good faith and name of business needs, and then, the code was, to put it lightly, BLOATED. Mathematically speaking the code scaled with the order of `A × B` *(cross product)* `A` being the number of features and `B` being the number of payment gateways.

@@ -83,13 +83,8 @@ params:
   #   yandex:
   #     SiteVerificationTag: "XYZabc"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
   editPost:
-    URL: "https://github.com/rathod-sahaab/blog/blob/dev/content"
+    URL: "https://github.com/rathod-sahaab/blog/edit/dev/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
