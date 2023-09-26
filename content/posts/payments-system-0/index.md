@@ -1,13 +1,13 @@
 ---
 author: "Abhay"
-title: Building a Modular and Extensible Payments Service [0]
+title: Building a Modular and Extensible Payments System [0]
 description: "Learn how to structure your payments service with modularity in mind, allowing for easy integration and scalability as your application grows. Learn the art of building an extensible foundation that can adapt to changing business needs, ensuring robustness and agility, to, at the end of the day, maximize profit."
 date: "2023-09-17T00:00:00+00:00"
 template: "post"
 draft: false
-slug: "payments-service-0"
+slug: "payments-system-0"
 series:
-  - "payments-service"
+  - "payments-system"
 tags:
   - "backend"
   - "nodejs"
@@ -27,7 +27,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "posts/payments-service-0/thumbnail.webp" # image path/url
+    image: "posts/payments-system-0/thumbnail.png" # image path/url
     alt: "Thumbnail: Server with various payment gateways" # alt text
     caption: "A Server with various payment gateways" # display caption under cover
     relative: true # when using page bundles set this to true
