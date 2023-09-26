@@ -95,7 +95,7 @@ Our payments service/module
 6. No ghost purchases.
 
 ## Data
-Any good back-end feature design starts with the data, so let's build up our data model. There are two major parts to our payments data, Orders and Transactions.
+Any good back-end feature design starts with the data, it's *data structures and algorithms* and not the other way around, so let's build up our data models. There are two major parts to our payments data, Orders and Transactions.
 1. Order: is like a shopping cart, it remembers what you are trying to buy.
 2. Transactions: these store the data about attempts of payments for a particular order.
 
@@ -257,3 +257,6 @@ class Transaction {
 }
 ```
 
+You can come up with actual implementation of these models as they will vary for your stack and needs. But, the important thing is to have a clear idea of what data you need to store and how it will be used.
+
+Stay tuned for the actual code, the algorithms to our data structures in the next part.
