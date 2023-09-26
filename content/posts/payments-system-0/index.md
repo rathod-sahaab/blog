@@ -50,7 +50,7 @@ A few hair-pulling problems arose due to this, concoction of features and paymen
     1. Not all features had all the payment info as adding the payment info code was a manual task prone to human error.
     2. Made the db models bloated, and fetch code where payment status had to be checked either in query or in code.
     3. Our analytics capabilities were limited due to payment related data being distributed.
-5. Ghost purchases: as the payment info was stored in feature models we had to create a ghost purchase just to store payment data which were marked successful in some way if the payment was successful. If payment was not successful the purchases still lingered. All our queries had to account for that.
+5. Ghost purchases: as the payment info was stored in feature models/tables we had to create a ghost purchase just to store payment info which were marked successful in some way. But, If payment was not successful the purchases still lingered, hence, **ghost** purchases. All our queries had to account for that.
 
 ```typescript
 class Call {
@@ -83,7 +83,7 @@ class Webinar {
 }
 ```
 
-And we don't want that.
+As you can see there's violation of several **S.O.L.I.D** Principles at once leading to a lot of pain, and we don't want that.
 
 ## What do we want?
 Our payments service/module
