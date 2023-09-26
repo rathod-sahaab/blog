@@ -13,11 +13,11 @@
     <language>en</language>
     <lastBuildDate>Sun, 17 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://abhay.rs/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building a Modular and Extensible Payments Service [0]</title>
-      <link>https://abhay.rs/blog/posts/payments-service-0/</link>
+      <title>Building a Modular and Extensible Payments System [0]</title>
+      <link>https://abhay.rs/blog/posts/payments-system-0/</link>
       <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://abhay.rs/blog/posts/payments-service-0/</guid>
+      <guid>https://abhay.rs/blog/posts/payments-system-0/</guid>
       <description>Learn how to structure your payments service with modularity in mind, allowing for easy integration and scalability as your application grows. Learn the art of building an extensible foundation that can adapt to changing business needs, ensuring robustness and agility, to, at the end of the day, maximize profit.</description>
     </item>
     
