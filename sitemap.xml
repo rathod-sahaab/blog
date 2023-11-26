@@ -3,15 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://abhay.rs/blog/tags/backend/</loc>
-    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abhay.rs/blog/posts/payments-system-0/</loc>
-    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
+    <loc>https://abhay.rs/blog/series/backend-intermediate/</loc>
+    <lastmod>2023-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abhay.rs/blog/posts/backend-intermediate-0/</loc>
+    <lastmod>2023-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abhay.rs/blog/</loc>
-    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abhay.rs/blog/tags/low-level-design/</loc>
+    <lastmod>2023-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abhay.rs/blog/posts/</loc>
+    <lastmod>2023-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abhay.rs/blog/tags/rust/</loc>
+    <lastmod>2023-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abhay.rs/blog/series/</loc>
+    <lastmod>2023-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abhay.rs/blog/tags/</loc>
+    <lastmod>2023-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abhay.rs/blog/posts/payments-system-0/</loc>
     <lastmod>2023-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abhay.rs/blog/tags/nodejs/</loc>
@@ -20,16 +38,7 @@
     <loc>https://abhay.rs/blog/series/payments-system/</loc>
     <lastmod>2023-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abhay.rs/blog/posts/</loc>
-    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abhay.rs/blog/series/</loc>
-    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://abhay.rs/blog/tags/systems-design/</loc>
-    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abhay.rs/blog/tags/</loc>
     <lastmod>2023-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abhay.rs/blog/tags/typescript/</loc>
