@@ -2,7 +2,7 @@
 author: "Abhay"
 title: Bloom filters, the magic of O(1) indexes with rust
 description: "Bloom filters are probabilistic data-structures, what that means it won’t be right all of the time but most of the time. Why would we use such a thing, cause it BLAZINGLY fast!! We will explore this with Rust cause it’s great and not as hard as you might think."
-date: "2023-11-27T00:00:00+00:00"
+date: "2023-11-26T00:00:00+00:00"
 template: "post"
 draft: false
 slug: "backend-intermediate-0"

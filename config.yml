@@ -27,7 +27,7 @@ params:
   assets:
     favicon: "https://abhay.rs/blog/favicon.svg"
   images: ["https://abhay.rs/blog/favicon.svg"]
-  DateFormat: "2023, January 2"
+  DateFormat: "2006, January 2"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
 
