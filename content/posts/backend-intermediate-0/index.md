@@ -31,9 +31,6 @@ cover:
     relative: true # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---
-## Bloom filters
-Bloom filters are probabilistic data-structures, what that means it won’t be right all of the time but most of the time. Why would we use such a thing, cause it **BLAZINGLY** fast!!
-
 We will explore one simple and one Production-ish implementation of this with Rust cause it’s a great language and not as hard as you might think.
 
 I won't dive into the history and mathematics of bloom filters, [this wikipedia page](https://en.wikipedia.org/wiki/Bloom_filter) does that great. I will be focusing more on intuition of how they work and how to make one. You can find the code at the [backend-rs github repo](https://github.com/rathod-sahaab/backend-rs/tree/main/data-structures/bloom-filter/src)
