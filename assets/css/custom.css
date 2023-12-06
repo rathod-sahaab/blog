@@ -1,0 +1,37 @@
+body.dark-theme {
+  --bkg-color: #282828 !important;
+}
+
+h1, h2 {
+  font-family: "Abril Fatface", serif;
+}
+
+.dark-theme main h1 > a,
+.dark-theme main h2 > a,
+.dark-theme main h3 > a,
+.dark-theme main h4 > a,
+.dark-theme main h5 > a,
+.dark-theme main h6 > a {
+  text-underline-offset: 4%;
+  text-decoration-thickness: .25ex;
+}
+
+.dark-theme h1 > a:hover,
+.dark-theme h2 > a:hover,
+.dark-theme h3 > a:hover,
+.dark-theme h4 > a:hover,
+.dark-theme h5 > a:hover,
+.dark-theme h6 > a:hover {
+  color: white;
+  text-decoration-color: white;
+}
+
+.tags > li > a {
+  background: transparent;
+  color: var(--date-color);
+  padding: 0;
+}
+
+.tags > li > a::before {
+  content: '#';
+}
