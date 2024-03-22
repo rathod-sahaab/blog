@@ -11,9 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://abhay.rs/blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://abhay.rs/blog/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>payments-system</title>
+      <title>Backend-Intermediate</title>
+      <link>https://abhay.rs/blog/series/backend-intermediate/</link>
+      <pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhay.rs/blog/series/backend-intermediate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Payments-System</title>
       <link>https://abhay.rs/blog/series/payments-system/</link>
       <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -22,7 +31,7 @@
     </item>
     
     <item>
-      <title>maths-from-chaos</title>
+      <title>Maths-From-Chaos</title>
       <link>https://abhay.rs/blog/series/maths-from-chaos/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -31,7 +40,7 @@
     </item>
     
     <item>
-      <title>backend-basics</title>
+      <title>Backend-Basics</title>
       <link>https://abhay.rs/blog/series/backend-basics/</link>
       <pubDate>Mon, 19 Jul 2021 14:23:34 +0000</pubDate>
       
